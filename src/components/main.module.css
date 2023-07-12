@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  /* min-height: 100%;
+  height: 100vh; */
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+
+  flex-direction: column;
+
+  justify-content: flex-start;
+
+  overflow: hidden;
+
+  background-color: #000;
+
+  background-size: cover;
+  background-position: top;
+}
+.wrapper {
+  height: 100vh;
+  position: relative;
+}
+.board {
+  position: absolute;
+  width: 17.375em;
+  left: 13em;
+  bottom: 44em;
+}
+.girl {
+  position: absolute;
+  width: 31em;
+  left: 8em;
+  bottom: 0;
+}
