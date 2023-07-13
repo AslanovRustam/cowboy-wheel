@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cowboy-wheel/static/css/main.0b97c482.css",
+    "main.js": "/cowboy-wheel/static/js/main.9278a717.js",
+    "static/media/wheelVar.png": "/cowboy-wheel/static/media/wheelVar.454f80d3eb6cf4bfcb69.png",
+    "static/media/bg.png": "/cowboy-wheel/static/media/bg.26c4d4197424dc855d86.png",
+    "static/media/girl.png": "/cowboy-wheel/static/media/girl.91b3926cb51bdc974bef.png",
+    "static/media/wheelBase.png": "/cowboy-wheel/static/media/wheelBase.75d688189e130972b3cc.png",
+    "static/media/boy.png": "/cowboy-wheel/static/media/boy.9ed21adf840e854ce0e8.png",
+    "static/media/popup-2.png": "/cowboy-wheel/static/media/popup-2.9b298a10928683715b87.png",
+    "static/media/bgMob.png": "/cowboy-wheel/static/media/bgMob.aff2cd48e3432a10fc1a.png",
+    "static/media/popup-1.png": "/cowboy-wheel/static/media/popup-1.d5c560871474f22e7b74.png",
+    "static/media/text2.svg": "/cowboy-wheel/static/media/text2.d92528e8781ce547437d782570854a2c.svg",
+    "static/media/board.png": "/cowboy-wheel/static/media/board.5369b69e52505bc9a88b.png",
+    "static/media/text1.svg": "/cowboy-wheel/static/media/text1.05431bb158f6ea5316dbe7f3a5501134.svg",
+    "static/media/btn.svg": "/cowboy-wheel/static/media/btn.d7fd6467ec33a8330baab814df1ef129.svg",
+    "static/media/btn2.svg": "/cowboy-wheel/static/media/btn2.8bac58603f7186d16b2d4fa382e60241.svg",
+    "static/media/btn1.svg": "/cowboy-wheel/static/media/btn1.ddbf5372f0ff5057f02f34abd6695e77.svg",
+    "index.html": "/cowboy-wheel/index.html",
+    "main.0b97c482.css.map": "/cowboy-wheel/static/css/main.0b97c482.css.map",
+    "main.9278a717.js.map": "/cowboy-wheel/static/js/main.9278a717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b97c482.css",
+    "static/js/main.9278a717.js"
+  ]
+}
