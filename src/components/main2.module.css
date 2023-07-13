@@ -1,0 +1,166 @@
+.container {
+  position: relative;
+  height: 100vh;
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #000;
+  background-size: cover;
+  background-position: top;
+}
+.personContainer {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  right: 41em;
+  width: 65em;
+}
+.cowboy {
+  z-index: 3;
+}
+.board {
+  position: absolute;
+  width: 17em;
+  top: 0;
+  left: 19em;
+}
+.wheelContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wheel {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 67.125em;
+  height: 61.375em;
+  font-size: 1rem;
+}
+.wheelVar,
+.wheelBase {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+}
+.wheelBase {
+  z-index: 2;
+}
+.wheelVar {
+  animation: swing 2s ease-in-out infinite alternate;
+}
+.wheelVar_1_spin {
+  composes: wheelVar;
+  animation: 4s animTurnOne ease-out forwards;
+}
+.wheelVar_2_spin {
+  composes: wheelVar;
+  animation: 6s animTurnTwo ease-out forwards;
+}
+.btn {
+  position: absolute;
+  left: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  top: 49.5%;
+  width: 3.7em;
+  z-index: 2;
+  animation: 1s animButton infinite alternate-reverse ease-in-out;
+  cursor: pointer;
+}
+
+.buttonActive {
+  composes: btn;
+  animation: none;
+  pointer-events: none;
+}
+
+.btnStart {
+}
+.btnStart {
+  position: absolute;
+  bottom: 5em;
+  right: 22em;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 5.67em;
+  padding: 0 1.5em;
+  border-radius: 0.5em;
+  background: #ffba00;
+  border: 0.1em solid transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 3;
+  animation: 1s animButton infinite alternate-reverse ease-in-out;
+}
+.btnStart:hover,
+.btnStart:focus {
+  filter: brightness(1.25);
+}
+.sbtnText {
+  width: 18.5625em;
+}
+.hide {
+  z-index: 0;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes animButton {
+  0% {
+    scale: 0.96;
+    filter: drop-shadow(0 0 0.15rem #ffc107) brightness(1);
+  }
+  100% {
+    scale: 1;
+    filter: drop-shadow(0 0 0.7rem #ffc107) brightness(1.1);
+  }
+}
+@keyframes animTurnOne {
+  100% {
+    transform: rotate(993deg);
+  }
+}
+@keyframes animTurnTwo {
+  100% {
+    transform: rotate(3turn);
+  }
+}
+@media (max-width: 1024px) and (orientation: portrait) {
+  .container {
+    background: url(../images/bgMob.png) top center / cover no-repeat;
+  }
+  .personContainer {
+    width: 50em;
+    margin-left: 7em;
+    right: auto;
+  }
+  .cowboy {
+    margin-left: -4em;
+  }
+  .board {
+    display: none;
+  }
+  .btnStart {
+    bottom: -35em;
+    right: unset;
+    padding: 4em;
+  }
+  .sbtnText {
+    width: 30em;
+  }
+}

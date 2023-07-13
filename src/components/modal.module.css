@@ -1,0 +1,68 @@
+.overvlow {
+  overflow: hidden;
+}
+.modalBackDrop {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  height: 100%;
+  padding: 2em 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  transition: all 0.3s ease-in-out;
+  overflow: auto;
+  z-index: 2;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40em;
+  margin: auto;
+}
+.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 5.67em;
+  margin-top: -5em;
+  padding: 0 1.5em;
+  border-radius: 0.5em;
+  background: #ffba00;
+  border: 0.1em solid transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  filter: brightness(1.25);
+}
+.sbtnText {
+  width: 13.5625em;
+}
+.text {
+  position: absolute;
+  bottom: 8em;
+  width: 18em;
+}
+.text2 {
+  position: absolute;
+  bottom: 6.8em;
+  width: 22em;
+}
+@media (max-width: 1024px) and (orientation: portrait) {
+  .container {
+    font-size: 2em;
+  }
+}

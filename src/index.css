@@ -25,184 +25,252 @@ html {
   text-decoration: none;
   list-style: none;
 }
+img {
+  width: 100%;
+  display: block;
+}
 img,
 video {
   max-width: 100%;
   height: auto;
 }
-/* @media (orientation: landscape) and (min-aspect-ratio: 1920 / 853) {
-  html {
-    font-size: 0.65vw;
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* @media (orientation: landscape) {
+  @media (max-aspect-ratio: 568/200) {
+    html {
+      font-size: 0.61vw;
+    }
   }
-}
-@media (orientation: landscape) and (min-aspect-ratio: 15 / 7) {
-  html {
-    font-size: 0.67vw;
+
+  @media (max-aspect-ratio: 568/220) {
+    html {
+      font-size: 0.67vw;
+    }
   }
-}
-@media (orientation: landscape) and (min-aspect-ratio: 640 / 311) {
-  html {
-    font-size: 0.7vw;
+
+  @media (max-aspect-ratio: 568/240) {
+    html {
+      font-size: 0.73vw;
+    }
   }
-}
-@media (orientation: landscape) and (min-aspect-ratio: 80 / 41) {
-  html {
-    font-size: 0.73vw;
+
+  @media (max-aspect-ratio: 568/260) {
+    html {
+      font-size: 0.79vw;
+    }
   }
-}
-@media (orientation: landscape) and (min-aspect-ratio: 1920 / 1007) {
-  html {
-    font-size: 0.76vw;
+
+  @media (max-aspect-ratio: 568/280) {
+    html {
+      font-size: 0.83333333vw;
+    }
   }
-}
-@media (orientation: landscape) and (min-aspect-ratio: 384 / 209) {
-  html {
-    font-size: 0.8vw;
+
+  @media (max-aspect-ratio: 568/300) {
+    html {
+      font-size: 0.9vw;
+    }
+  }
+  @media (max-aspect-ratio: 568/330) {
+    html {
+      font-size: 0.93vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/360) {
+    html {
+      font-size: 0.97vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/410) {
+    html {
+      font-size: 1.1vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/460) {
+    html {
+      font-size: 1.2vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/520) {
+    html {
+      font-size: 1.26vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 568/560) {
+    html {
+      font-size: 1.32vw;
+    }
   }
 } */
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 71) {
-  html {
-    font-size: 2.22vw;
-  }
-}
-
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 16 / 35) {
+@media (max-width: 1024px) and (orientation: portrait) {
   html {
     font-size: 2.16vw;
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 8 / 17) {
-  html {
-    font-size: 2.14vw;
+
+  @media (max-aspect-ratio: 320/320) {
+    html {
+      font-size: 1vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 67) {
-  html {
-    font-size: 2.1vw;
+
+  @media (max-aspect-ratio: 320/340) {
+    html {
+      font-size: 1.05vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 65) {
-  html {
-    font-size: 2.04vw;
+  @media (max-aspect-ratio: 320/350) {
+    html {
+      font-size: 1.09vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 63) {
-  html {
-    font-size: 1.98vw;
+  @media (max-aspect-ratio: 320/360) {
+    html {
+      font-size: 1.12vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 16 / 31) {
-  html {
-    font-size: 1.94vw;
+
+  @media (max-aspect-ratio: 320/370) {
+    html {
+      font-size: 1.15vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 61) {
-  html {
-    font-size: 1.91vw;
+  @media (max-aspect-ratio: 320/380) {
+    html {
+      font-size: 1.19vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 59) {
-  html {
-    font-size: 1.85vw;
+  @media (max-aspect-ratio: 320/390) {
+    html {
+      font-size: 1.22vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 16 / 29) {
-  html {
-    font-size: 1.82vw;
+
+  @media (max-aspect-ratio: 320/400) {
+    html {
+      font-size: 1.25vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 4 / 7) {
-  html {
-    font-size: 1.76vw;
+  @media (max-aspect-ratio: 320/410) {
+    html {
+      font-size: 1.29vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 55) {
-  html {
-    font-size: 1.725vw;
+  @media (max-aspect-ratio: 320/425) {
+    html {
+      font-size: 1.33vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 53) {
-  html {
-    font-size: 1.66vw;
+
+  @media (max-aspect-ratio: 320/440) {
+    html {
+      font-size: 1.38vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 8 / 13) {
-  html {
-    font-size: 1.63vw;
+  @media (max-aspect-ratio: 320/455) {
+    html {
+      font-size: 1.42vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 64 / 101) {
-  html {
-    font-size: 1.58vw;
+
+  @media (max-aspect-ratio: 320/470) {
+    html {
+      font-size: 1.48vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 49) {
-  html {
-    font-size: 1.53vw;
+
+  @media (max-aspect-ratio: 320/490) {
+    html {
+      font-size: 1.53vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 47) {
-  html {
-    font-size: 1.48vw;
+  @media (max-aspect-ratio: 320/505) {
+    html {
+      font-size: 1.58vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 64 / 91) {
-  html {
-    font-size: 1.42vw;
+  @media (max-aspect-ratio: 320/520) {
+    html {
+      font-size: 1.63vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 8 / 11) {
-  html {
-    font-size: 1.38vw;
+
+  @media (max-aspect-ratio: 320/530) {
+    html {
+      font-size: 1.66vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 64 / 85) {
-  html {
-    font-size: 1.33vw;
+  @media (max-aspect-ratio: 320/550) {
+    html {
+      font-size: 1.725vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 41) {
-  html {
-    font-size: 1.29vw;
+
+  @media (max-aspect-ratio: 320/560) {
+    html {
+      font-size: 1.76vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 4 / 5) {
-  html {
-    font-size: 1.25vw;
+
+  @media (max-aspect-ratio: 320/580) {
+    html {
+      font-size: 1.82vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 39) {
-  html {
-    font-size: 1.22vw;
+
+  @media (max-aspect-ratio: 320/590) {
+    html {
+      font-size: 1.85vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 16 / 19) {
-  html {
-    font-size: 1.19vw;
+
+  @media (max-aspect-ratio: 320/610) {
+    html {
+      font-size: 1.91vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 37) {
-  html {
-    font-size: 1.15vw;
+  @media (max-aspect-ratio: 320/620) {
+    html {
+      font-size: 1.94vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 8 / 9) {
-  html {
-    font-size: 1.12vw;
+
+  @media (max-aspect-ratio: 320/630) {
+    html {
+      font-size: 1.98vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 32 / 35) {
-  html {
-    font-size: 1.09vw;
+
+  @media (max-aspect-ratio: 320/650) {
+    html {
+      font-size: 2.04vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 16 / 17) {
-  html {
-    font-size: 1.05vw;
+
+  @media (max-aspect-ratio: 320/670) {
+    html {
+      font-size: 2.1vw;
+    }
   }
-}
-@media (max-width: 1024px) and (orientation: portrait) and (max-aspect-ratio: 1 / 1) {
-  html {
-    font-size: 1vw;
+  @media (max-aspect-ratio: 320/680) {
+    html {
+      font-size: 2.14vw;
+    }
+  }
+
+  @media (max-aspect-ratio: 320/700) {
+    html {
+      font-size: 2.16vw;
+    }
+  }
+  @media (max-aspect-ratio: 320/710) {
+    html {
+      font-size: 2.22vw;
+    }
   }
 }
