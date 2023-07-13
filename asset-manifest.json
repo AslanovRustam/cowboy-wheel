@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cowboy-wheel/static/css/main.0b97c482.css",
+    "main.css": "/cowboy-wheel/static/css/main.1f2b820a.css",
     "main.js": "/cowboy-wheel/static/js/main.9278a717.js",
     "static/media/wheelVar.png": "/cowboy-wheel/static/media/wheelVar.454f80d3eb6cf4bfcb69.png",
     "static/media/bg.png": "/cowboy-wheel/static/media/bg.26c4d4197424dc855d86.png",
@@ -17,11 +17,11 @@
     "static/media/btn2.svg": "/cowboy-wheel/static/media/btn2.8bac58603f7186d16b2d4fa382e60241.svg",
     "static/media/btn1.svg": "/cowboy-wheel/static/media/btn1.ddbf5372f0ff5057f02f34abd6695e77.svg",
     "index.html": "/cowboy-wheel/index.html",
-    "main.0b97c482.css.map": "/cowboy-wheel/static/css/main.0b97c482.css.map",
+    "main.1f2b820a.css.map": "/cowboy-wheel/static/css/main.1f2b820a.css.map",
     "main.9278a717.js.map": "/cowboy-wheel/static/js/main.9278a717.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b97c482.css",
+    "static/css/main.1f2b820a.css",
     "static/js/main.9278a717.js"
   ]
 }
