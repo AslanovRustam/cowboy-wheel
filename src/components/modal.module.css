@@ -61,8 +61,3 @@
   bottom: 6.8em;
   width: 22em;
 }
-@media (max-width: 1024px) and (orientation: portrait) {
-  .container {
-    font-size: 2em;
-  }
-}
